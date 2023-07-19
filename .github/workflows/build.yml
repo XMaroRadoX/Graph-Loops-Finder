@@ -16,18 +16,18 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.8'
+          python-version: "3.8"
 
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install -r app/requirements.txt
+          pip install -r requirements.txt
 
       - name: Build standalone binary
         run: |
           pip install pyinstaller
-          pyinstaller --onefile app/graph_loops_finder.py
-          mv dist/graph_loops_finder app/
+          pyinstaller --onefile app/gui.py
+          mv dist/gui app/
 
       - name: Create Release
         id: create_release
@@ -47,6 +47,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./app/graph_loops_finder
-          asset_name: graph_loops_finder
+          asset_path: ./app/gui
+          asset_name: gui
           asset_content_type: application/octet-stream
