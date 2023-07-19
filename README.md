@@ -124,4 +124,4 @@ A visualization of the graph with highlighted loops will also be displayed.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the  GNU GENERAL PUBLIC License - see the [LICENSE](LICENSE) file for details.
