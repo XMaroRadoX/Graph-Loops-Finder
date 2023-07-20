@@ -4,16 +4,16 @@ Graph Loops Finder is a Python application that helps you find loops in a direct
 
 ## Table of Contents
 
-
-   - [Overview](#overview)
-   - [Features](#features)
-   - [Requirements](#requirements)
-   - [Installation](#installation)
-   - [Usage](#usage)
-   - [CSV File Format](#csv-file-format)
-   - [Examples](#examples)
-   - [Contributing](#contributing)
-   - [License](#license)
+- [Overview](#overview)
+- [Features](#features)
+- [Demo](#demo)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [CSV File Format](#csv-file-format)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Overview
 
@@ -24,6 +24,10 @@ Graph Loops Finder is a command-line tool that takes a CSV file containing graph
 - ✔️ Identifies loops in a directed graph represented as edges in a CSV file.
 - 📈 Generates a visual representation of the graph with highlighted loops.
 - 📋 Outputs the detected loops in a user-friendly format.
+
+## Demo
+
+![Demo](demo/DEMO.png)
 
 ## Requirements
 
