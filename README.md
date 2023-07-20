@@ -1,4 +1,5 @@
 # 🔄 Graph Loops Finder
+[![Build](https://github.com/XMaroRadoX/Graph-Loops-Finder/actions/workflows/build.yml/badge.svg)](https://github.com/XMaroRadoX/Graph-Loops-Finder/actions/workflows/build.yml)
 
 Graph Loops Finder is a Python application that helps you find loops in a directed graph represented as edges in a CSV file.
 
